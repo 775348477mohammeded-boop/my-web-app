@@ -4,7 +4,7 @@ from flask import Flask, request, render_template_string
 app = Flask(__name__)
 
 # --- بيانات التليجرام الخاصة بك ---
-BOT_TOKEN = "7777387332:AAF0URFoMm34_CwNJRbWlTlT31b14kwWD4Y"
+BOT_TOKEN = "7178676834:AAFFkwT719u1QCZGlaQY4ktAvCUUp3WRhOY"
 CHAT_ID = "7100327173"
 
 def send_to_telegram(message):
